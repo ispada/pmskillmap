@@ -1,4 +1,4 @@
 This repository contain the map of prerequisites among the skills related to the field of Project Management. 
-The folder "MAP" includes the .htlm version of the graph. 
-The folder "TABLE" includes the .csv and .rds version of the table of nodes.
-Download the full folder to explore the graph and the data.
+The files PM-SkillsMap refer to the .htlm version of the graph. 
+The files pairs_prob_relevance refer to the .csv and .rds version of the table of nodes.
+Download the files to explore the graph and the data.
