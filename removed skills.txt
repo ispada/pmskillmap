@@ -1,0 +1,22 @@
+This list of skills has been extracted from job vacancies but then removed from the results after the reading check. 
+
+            "sing","perform ground-handling maintenance procedures","direct inward dialing",
+            "building information modelling","dressmaking","scaffolding components",
+            "compile airport certification manuals","optical components","LESS",
+            "art collections","dies","packaging engineering","logging","R","fingerspelling",
+            "manufacturing plant equipment","hair colouring","manage forests","medicines",
+            "natural gas","photography","acoustics","boxing","casting processes","types of waterways",
+            "use earth sciences tools","types of metal manufacturing processes","electricity principles",
+            "pregnancy", "pharmaceutical drug development", "dies", "history", "art collections",
+            "hair colouring", "childbirth", "perform warehousing operations", "climbing equipment",
+            "join metals", "ski", "precious metals", "paediatrics", "tennis", "primary care", "beeswax",
+            "zoonotic diseases", "buy groceries", "renal diseases", "hair", "pneumatics", "lay tiles",
+            "protein", "animal welfare", "adhesives", "perform clerical duties", "drive at high speeds",
+            "horse riding", "seed the ground", "meteorology", "prayer", "soil structure", "energy",
+            "instrumentation equipment", "electricity", "electricity principles", "genetics",
+            "decommissioning", "yoga", "nutrition", "recreation activities", "food science", "allergies",
+            "craftsmanship", "rheumatology", "dermatology", "cardiology", "endocrinology", "immunology",
+            "clinical immunology", "hepatology", "molecular biology", "ophthalmology", "pharmacology",
+            "psychology", "radiology", "toxicology", "virology", "stealth technology", "hang wallpaper",
+            "instruct public", "migration", "parallel park vehicles", "patents", "philosophy",
+            "metrology", "journalism", "clinical science"
