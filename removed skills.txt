@@ -21,4 +21,6 @@ This list of skills has been extracted from job vacancies but then removed from 
             "instruct public", "migration", "parallel park vehicles", "patents", "philosophy",
             "metrology", "journalism", "clinical science", "medical devices", "geography",
             "cosmetics", "keep company", "household products", "periodisation", "geographic information systems",
-            "e-learning"
+            "e-learning", "good laboratory practice", "conduct cleaning tasks", "crafting",
+            "repossession", "general medicine","football")
+
