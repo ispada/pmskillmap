@@ -19,4 +19,6 @@ This list of skills has been extracted from job vacancies but then removed from 
             "clinical immunology", "hepatology", "molecular biology", "ophthalmology", "pharmacology",
             "psychology", "radiology", "toxicology", "virology", "stealth technology", "hang wallpaper",
             "instruct public", "migration", "parallel park vehicles", "patents", "philosophy",
-            "metrology", "journalism", "clinical science"
+            "metrology", "journalism", "clinical science", "medical devices", "geography",
+            "cosmetics", "keep company", "household products", "periodisation", "geographic information systems",
+            "e-learning"
