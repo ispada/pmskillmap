@@ -1,0 +1,65 @@
+---
+title: "Table of Pre-requisites"
+author: "Irene Spada"
+date: "2023-08-08"
+output: html_document
+---
+
+# Data set up
+```{r echo=TRUE}
+
+# Load libraries 
+library(tidyverse)
+library(DT) 
+
+# Load data
+pairs_probs_and_relevance <- read.csv("data/pairs_probs_and_relevance.csv")
+
+# Set columns' names 
+i1 <- pairs_probs_and_relevance %>%
+  arrange(desc(start_skill_relevance)) %>% 
+  select("From Competence" = from_skill, 
+         "To Competence" = to_skill,
+         "Link Probability" = link_probability, 
+         "Relevance (From)" = start_skill_relevance, 
+         "Relevance (To)" = end_skill_relevance, 
+         "Type (From)" = skillType_from, 
+         "Type (To)" = skillType_to,
+         "Reuse Level (From)" = reuseLevel_from,
+         "Reuse Level (To)" = reuseLevel_to) 
+```
+
+
+# Table Displays
+
+```{r}
+DT::datatable(i1, filter = "top", rownames = F, class = "cell-border stripe",
+              extensions = 'Buttons', options = list(
+                dom = 'Bfrtip', 
+                buttons = c('copy', 'csv', 'excel', 'pdf', 'print'))
+              )
+```
+
+## More pretty R table examples
+
+You can find a great overview of packages to use for beautiful tables in R by [David Keyes](https://twitter.com/dgkeyes) [here](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/).
+
+<br/>
+
+# Export and display in GitHub
+
+## Get the HMTL file prepared
+ - Ensure that your file is called `index.Rmd`
+ - Select "Knit" in the top menu bar within R Studio. This will create your file `index.html` file 
+
+## Get your GitHub repo prepared
+ 
+ - Create a new GitHub repo 
+ - Go to the `Code` area > click `Add file`.
+ - Add `index.html` and `index.Rmd` file from the above step
+ - Navigate to the repo > `Settings` > Scroll to `GitHub Pages`
+ - Select a branch.  If you are unsure, just select `Main` and `Save`.
+ - Select a theme, I selected `Minimal`.  If you need to save the new README.md file for this, do please do so.  
+ - Navigate back to `Settings` > Scroll to `GitHub Pages`.  Your URL should now be displaying. It will display text similar to: `Your site is published at {URL}`
+ - Celebrate because your beautiful data tables are now displayed in GitHub! 
+ - Optional: Change your `README.md` file to link to your html page.
